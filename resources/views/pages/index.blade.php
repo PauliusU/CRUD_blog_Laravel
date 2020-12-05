@@ -8,8 +8,8 @@
 </head>
 
 <body>
-    <h1>About</h1>
-    <p>This is the about page</p>
+    <h1>Welcome To Laravel</h1>
+    <p>This is the Laravel application form the "Lavaravel From Scratch" Youtube series</p>
 </body>
 
 </html>

@@ -4,7 +4,8 @@
     <a class="btn btn-default" href="/posts">Go Back</a>
     <h1>{{$post->title}}</h1>
     <div>
-        {{$post->body}}
+        {{-- To parse HTML use {!! !!} syntax, instead of {{}} --}}
+        {!! $post->body!!}
     </div>
     <hr>
     <small>Written on {{$post->created_at}}</small>

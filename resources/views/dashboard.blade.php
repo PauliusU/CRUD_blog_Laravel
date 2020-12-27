@@ -16,8 +16,9 @@
 
                         {{ __('You are logged in!') }}
                         <hr>
-                        <a href="/posts/create" class="btn btn-primary">Create Post</a>
 
+                        <a href="/posts/create" class="btn btn-primary mb-2">Create Post</a>
+B
                         <h3>Your Blog Posts</h3>
                         @if(count($posts) > 0)
                             <table class="table table-striped">

@@ -3,6 +3,8 @@
 @section('content')
     <a class="btn btn-default" href="/posts">Go Back</a>
     <h1>{{$post->title}}</h1>
+    <img style="width:100%" src="/storage/cover_images/{{$post->cover_image}}" alt="Cover image">
+    <br><br>
     <div>
         {{-- To parse HTML use {!! !!} syntax, instead of {{}} --}}
         {!! $post->body!!}
@@ -10,7 +12,6 @@
     <hr>
     <small>Written on {{$post->created_at}} by {{$post->user->name}}</small>
     <hr>
-
     @if(!Auth::guest())
         @if(Auth::user()->id == $post->user_id)
             <a href="/posts/{{$post->id}}/edit" class="btn btn-primary">Edit</a>

@@ -8,7 +8,7 @@
 
 This is the source code for Laravel website with a CRUD blog application. It also includes full authentication and file uploading.
 
-**For deployed version visit:** [laravel-blog-crud.herokuapp.com](https://laravel-blog-crud.herokuapp.com/)
+**For deployed version visit: [laravel-blog-crud.herokuapp.com](https://laravel-blog-crud.herokuapp.com/)** (this version does not support file uploading due to Heroku limitations)
 
 ## Tech Stack
 
@@ -21,11 +21,11 @@ The following technologies were used in the project:
 
 ## Running project
 
-Visit: [laravel-blog-crud.herokuapp.com](https://laravel-blog-crud.herokuapp.com/)
+**Visit: [laravel-blog-crud.herokuapp.com](https://laravel-blog-crud.herokuapp.com/)** (this version does not support file uploading due to Heroku limitations)
 
 **OR**
 
-Run Laravel project locally:
+Run Laravel project locally (supports all features):
 
 1. Clone GitHub repo for this project locally
     ```bash

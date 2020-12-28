@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'LSAPP') }}</title>
+    <title>{{ config('app.name', 'Laravel CRUD blog') }}</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -22,9 +22,6 @@
     <!-- Bootstrap 4.5.0 CSS via BootstrapCDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-    <!-- CKEditor (WYSIWYG) -->
-    <script src="//cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
 </head>
 <body>
 <div id="app">
@@ -37,11 +34,8 @@
         </div>
     </main>
 </div>
-{{--<script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>--}}
-{{--<script>--}}
-{{--    CKEDITOR.replace( 'article-ckeditor' );--}}
-{{--</script>--}}
-<script src="{{ asset('ckeditor/ckeditor.js')}}"></script>
+<!-- CKEditor (WYSIWYG) -->
+<script src="//cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
 <script>CKEDITOR.replace('article-ckeditor');</script>
 <!-- Bootstrap 4.5.0 JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

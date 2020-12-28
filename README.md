@@ -23,7 +23,7 @@ The following technologies were used in the project:
 
 Visit: [quiet-fjord-52051.herokuapp.com](https://quiet-fjord-52051.herokuapp.com)
 
-OR
+**OR**
 
 Run Laravel project locally:
 
@@ -69,4 +69,4 @@ Run Laravel project locally:
 10. You can now access your project at localhost:8000
 
 ## Database
-The SQL dump is in _SQL/crud_blog_laravel.sql
+The SQL dump with sample data is in _SQL/crud_blog_laravel.sql

@@ -2,7 +2,7 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.com/PauliusU/CRUD_blog_Laravel.svg?branch=master" alt="Build Status"></a>
+<a href="https://travis-ci.com/github/PauliusU/CRUD_blog_Laravel"><img src="https://travis-ci.com/PauliusU/CRUD_blog_Laravel.svg?branch=master" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
@@ -14,8 +14,9 @@ This is the source code for Laravel website with a CRUD blog application. It als
 
 The following technologies were used in the project:
 * [Laravel 8](https://laravel.com) - a web application framework with expressive, elegant syntax.
-* [Bootstrap 4.5](https://getbootstrap.com) -  CSS framework.
-* [Composer](https://getcomposer.org) - A Dependency Manager for PHP.
+* [Bootstrap 4.5](https://getbootstrap.com) - CSS framework.
+* [Composer](https://getcomposer.org) - a Dependency Manager for PHP.
+* [Travis CI](https://travis-ci.com/) - continuous integration service used to build and test project.
 * [Heroku](https://www.heroku.com) - Cloud Application Platform for hosting.
 
 ## Running project
@@ -51,7 +52,7 @@ Run Laravel project locally:
     mysql -u username -p
     ```
     ```bash
-    CREATE DATABASE lsapp;
+    CREATE DATABASE laravel;
     ```
 7. In the .env file, add database information to allow Laravel to connect to the database
 

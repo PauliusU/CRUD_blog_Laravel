@@ -8,7 +8,7 @@
 
 This is the source code for Laravel website with a CRUD blog application. It also includes full authentication and file uploading.
 
-**For deployed version visit:** [quiet-fjord-52051.herokuapp.com](https://quiet-fjord-52051.herokuapp.com)
+**For deployed version visit:** [laravel-blog-crud.herokuapp.com](https://laravel-blog-crud.herokuapp.com/)
 
 ## Tech Stack
 
@@ -21,7 +21,7 @@ The following technologies were used in the project:
 
 ## Running project
 
-Visit: [quiet-fjord-52051.herokuapp.com](https://quiet-fjord-52051.herokuapp.com)
+Visit: [laravel-blog-crud.herokuapp.com](https://laravel-blog-crud.herokuapp.com/)
 
 **OR**
 

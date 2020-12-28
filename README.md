@@ -3,7 +3,7 @@
 
 <p align="center">
 <a href="https://travis-ci.com/github/PauliusU/CRUD_blog_Laravel"><img src="https://travis-ci.com/PauliusU/CRUD_blog_Laravel.svg?branch=master" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<a href="https://github.com/PauliusU/CRUD_blog_Laravel/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT license"></a>
 </p>
 
 This is the source code for Laravel website with a CRUD blog application. It also includes full authentication and file uploading.

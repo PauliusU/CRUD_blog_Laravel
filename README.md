@@ -16,6 +16,7 @@ The following technologies were used in the project:
 * [Laravel 8](https://laravel.com) - a web application framework with expressive, elegant syntax.
 * [Bootstrap 4.5](https://getbootstrap.com) - CSS framework.
 * [Composer](https://getcomposer.org) - a Dependency Manager for PHP.
+* [MySQL](https://www.mysql.com/) -  an open-source relational database management system.
 * [Travis CI](https://travis-ci.com/) - continuous integration service used to build and test project.
 * [Heroku](https://www.heroku.com) - Cloud Application Platform for hosting.
 

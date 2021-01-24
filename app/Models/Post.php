@@ -9,13 +9,6 @@ class Post extends Model
 {
     use HasFactory;
 
-//    // Table Name
-//    protected $table = 'posts';
-//    // Primary Key
-//    public $primaryKey = 'id';
-//    // Timestamps
-//    public $timestamps = true;
-
     public function user()
     {
         // A post has a relationship with a user and it belongs to a user.
